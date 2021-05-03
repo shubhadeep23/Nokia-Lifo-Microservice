@@ -1,0 +1,31 @@
+{
+  "name": "enrollingproductuiservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "env-cmd  -f .env nodemon server.js",
+    "test": "jasmine",
+    "test-cover": "env-cmd  -f .env istanbul cover --include-all-sources spec/specs.js && istanbul check-coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "handlebars": "^4.5.3",
+    "istanbul": "^1.1.0-alpha.1",
+    "jasmine": "^2.99.0",
+    "jasmine-console-reporter": "^2.0.1",
+    "jasmine-node": "^1.14.5",
+    "jasmine-supertest": "^1.0.0",
+    "supertest": "^3.4.2"
+  },
+  "dependencies": {
+    "env-cmd": "^10.1.0",
+    "express": "^4.17.1",
+    "node-modules": "^1.0.1",
+    "nodemon": "^2.0.4",
+    "request": "^2.88.2",
+    "winston": "^3.3.3"
+  }
+}
