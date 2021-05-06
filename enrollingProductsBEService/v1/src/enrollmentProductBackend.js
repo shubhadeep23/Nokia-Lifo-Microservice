@@ -6,6 +6,15 @@ const { toValidateMandetoryField } = require('./validators');
 const { toCreateInsertionBody, createErrorJSON } = require('./enrollmentParser');
 
 const postProductInfo = async (req, res) => {
+     // #swagger.tags = ['LIFO Microservice']
+     // #swagger.description = 'Endpoint para obter um usuário.'
+     /* #swagger.parameters['body'] = {
+               in: 'body',
+               description: 'Informações do usuário.',
+               required: true,
+               type: 'object',
+               schema: { $ref: "#/definitions/response" }
+        } */
     try {
         await createLogs(req, res, postProductInfo.name, fileOwner, 'Begins', '');
         const validatedMandetoryFields = await toValidateMandetoryField(req.body);
@@ -33,6 +42,8 @@ const postProductInfo = async (req, res) => {
 }
 
 const getProductInfo = async (req, res) => {
+    // #swagger.tags = ['LIFO Microservice']
+     // #swagger.description = 'Endpoint para obter um usuário.'
     try {
         await createLogs(req, res, getProductInfo.name, fileOwner, 'Begins', '');
         let productList = await dbQuery.getProductList();
@@ -42,6 +53,10 @@ const getProductInfo = async (req, res) => {
             delete productList[0].meta;
             createLogs(req, res, getProductInfo.name, fileOwner, 'Success', productList);
             createLogs(req, res, getProductInfo.name, fileOwner, 'Exits', '');
+            /* #swagger.responses[200] = { 
+               schema: { $ref: "#/definitions/response" },
+               description: 'Usuário encontrado.' 
+        } */
             res.status(200).json(productList);
         }
     }
@@ -52,6 +67,8 @@ const getProductInfo = async (req, res) => {
 }
 
 const deleteProductInfo = async (req, res) => {
+     // #swagger.tags = ['LIFO Microservice']
+      // #swagger.description = 'Endpoint para obter um usuário.'
     try {
         await createLogs(req, res, deleteProductInfo.name, fileOwner, 'Begins', '');
         let deletedProductInfo = await dbQuery.deleteOldestProduct();

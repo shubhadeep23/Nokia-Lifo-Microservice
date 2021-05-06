@@ -329,3 +329,39 @@ Mon, 03 May 2021 13:05:14 GMT | INFO |f406a86f-6898-496a-8ad3-af9dbee64207 |POST
 Mon, 03 May 2021 13:05:14 GMT | INFO |002a0e0f-578b-4f85-899d-f52e1813a3c2 |POST|enrollmentProductBackend|postProductInfo|Begins|{"productName":"Mug","description":"coffee mug","cost":"44"} |{"x-trace-id":"002a0e0f-578b-4f85-899d-f52e1813a3c2","host":"localhost:3024","content-type":"application/json","content-length":"60"} |
 Mon, 03 May 2021 13:05:14 GMT | DEBUG |002a0e0f-578b-4f85-899d-f52e1813a3c2 |POST|enrollmentProductBackend|postProductInfo|Success|{"affectedRows":1,"insertId":33,"warningStatus":0} | |
 Mon, 03 May 2021 13:05:14 GMT | INFO |002a0e0f-578b-4f85-899d-f52e1813a3c2 |POST|enrollmentProductBackend|postProductInfo|Exits| | |
+Thu, 06 May 2021 11:03:16 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:03:51 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:06:42 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:06:42 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:09:34 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:09:34 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:11:18 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:11:18 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:16:10 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:16:10 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:17:30 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:17:30 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:18:56 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:18:56 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:20:34 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:20:34 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:23:06 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:23:06 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:24:12 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:24:12 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 11:31:47 GMT | INFO |undefined |GET|enrollmentProductBackend|getProductInfo|Begins|/v1/products |{"content-type":"application/json","user-agent":"PostmanRuntime/7.26.8","postman-token":"5865535a-9912-4e75-9479-45250b6d87d6","host":"localhost:3024","accept-encoding":"gzip, deflate, br","content-length":"81"} |
+Thu, 06 May 2021 11:31:48 GMT | INFO |undefined |GET|enrollmentProductBackend|getProductInfo|Exits| | |
+Thu, 06 May 2021 11:34:11 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 11:34:11 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 13:27:30 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 13:27:30 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 13:29:46 GMT | INFO | |Connected|server.js|server|ServerConnection|3024 | |
+Thu, 06 May 2021 13:29:46 GMT | INFO | |Connected|dbConnection.js|DBConnection|DBConnection|DataBase Connected | |
+Thu, 06 May 2021 13:37:28 GMT | INFO |undefined |GET|enrollmentProductBackend|getProductInfo|Begins|/v1/products |{"host":"localhost:3024","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3024/doc/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"} |
+Thu, 06 May 2021 13:37:28 GMT | INFO |undefined |GET|enrollmentProductBackend|getProductInfo|Exits| | |
+Thu, 06 May 2021 13:38:02 GMT | INFO |undefined |POST|enrollmentProductBackend|postProductInfo|Begins|[{"id":16,"product_name":"Mug","description":"coffee mug","cost":44,"date_manu":"2021-05-02T18:30:00.000Z"}] |{"host":"localhost:3024","content-length":"145","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36","content-type":"application/json","origin":"http://localhost:3024","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3024/doc/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"} |
+Thu, 06 May 2021 13:38:02 GMT | ERROR |undefined |POST|enrollmentProductBackend|postProductInfo|Error|[object Object] | |
+Thu, 06 May 2021 13:38:25 GMT | INFO |undefined |POST|enrollmentProductBackend|postProductInfo|Begins|{"product_name":"Mug","description":"coffee mug","cost":44,"date_manu":"2021-05-02T18:30:00.000Z"} |{"host":"localhost:3024","content-length":"134","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36","content-type":"application/json","origin":"http://localhost:3024","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3024/doc/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"} |
+Thu, 06 May 2021 13:38:25 GMT | ERROR |undefined |POST|enrollmentProductBackend|postProductInfo|Error|[object Object] | |
+Thu, 06 May 2021 13:38:54 GMT | INFO |undefined |POST|enrollmentProductBackend|postProductInfo|Begins|{"productName":"Mug","description":"coffee mug","cost":"44"} |{"host":"localhost:3024","content-length":"90","sec-ch-ua":"\" Not A;Brand\";v=\"99\", \"Chromium\";v=\"90\", \"Google Chrome\";v=\"90\"","sec-ch-ua-mobile":"?0","user-agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36","content-type":"application/json","origin":"http://localhost:3024","sec-fetch-site":"same-origin","sec-fetch-mode":"cors","sec-fetch-dest":"empty","referer":"http://localhost:3024/doc/","accept-encoding":"gzip, deflate, br","accept-language":"en-US,en;q=0.9"} |
+Thu, 06 May 2021 13:38:54 GMT | INFO |undefined |POST|enrollmentProductBackend|postProductInfo|Exits| | |

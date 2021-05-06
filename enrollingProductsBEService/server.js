@@ -6,6 +6,8 @@ const logger = require('./v1/logger/loggerMethod')
 const { createLogs } = require('./v1/logger/loggerMethod');
 const router = require('./v1/router/enrollmentRouter')
 app.set("port", process.env.ENROLLMENT_BE_PORT);
+const swaggerUi = require('swagger-ui-express')
+const swaggerFile = require('./swagger_output.json')
 
 /**
  * Start Express Server
@@ -23,7 +25,7 @@ app.use(function (req, res, next) {
      res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
      next();
 });
-
+app.use('/doc', swaggerUi.serve, swaggerUi.setup(swaggerFile))
 // Routes
 app.use("/enrollment", router);
 
